@@ -14,7 +14,6 @@ class Rectangle:
             Return
                 The calculated area of the rectangle
         '''
-
         return self.length * self.width
 
 
@@ -29,7 +28,6 @@ class Rectangle:
         Return
             The calculated perimeter of the rectangle
         '''
-        
         return 2 * (self.length + self.width)
 
 
