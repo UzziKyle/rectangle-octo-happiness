@@ -3,30 +3,33 @@ class Rectangle:
         self.length = length
         self.width = width
 
-    ''''
-    Calculate the area of the rectangle using the length and width.
-
-    Args:
-        length - The length of the rectangle
-        width - The height of the rectangle
-
-    Return
-        The calculated area of the rectangle
-    '''
     def calculate_area(self) -> float:
+        ''''
+            Calculate the area of the rectangle using the length and width.
+
+            Args:
+                length - The length of the rectangle
+                width - The height of the rectangle
+
+            Return
+                The calculated area of the rectangle
+        '''
+
         return self.length * self.width
 
-    ''''
-    Calculate the perimeter of the rectangle using the length and width.
 
-    Args:
-        length - The length of the rectangle
-        width - The height of the rectangle
+    def calculate_perimeter(self) -> float:
+        ''''
+        Calculate the perimeter of the rectangle using the length and width.
 
-    Return
-        The calculated perimeter of the rectangle
-    '''
-    def calculate_perimeter(self) -> int:
+        Args:
+            length - The length of the rectangle
+            width - The height of the rectangle
+
+        Return
+            The calculated perimeter of the rectangle
+        '''
+        
         return 2 * (self.length + self.width)
 
 
