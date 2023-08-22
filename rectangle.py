@@ -1,5 +1,5 @@
 def calculate_area(length, width):
-    ''''
+    '''
     Calculate the area of the rectangle using the length and width.
 
     Args:
@@ -11,9 +11,9 @@ def calculate_area(length, width):
     '''
     return length * width
 
-# [Put Docstring in this function]
+
 def calculate_perimeter(length, width):
-    ''''
+    '''
     Calculate the perimeter of the rectangle using the length and width.
 
     Args:
