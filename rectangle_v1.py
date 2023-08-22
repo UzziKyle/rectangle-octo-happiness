@@ -1,5 +1,5 @@
 def calculate_area(length: float, width: float) -> float:
-    ''''
+    '''
     Calculate the area of the rectangle using the length and width.
 
     Args:
@@ -13,7 +13,7 @@ def calculate_area(length: float, width: float) -> float:
 
 
 def calculate_perimeter(length: float, width: float) -> float:
-    ''''
+    '''
     Calculate the perimeter of the rectangle using the length and width.
 
     Args:
@@ -35,6 +35,7 @@ def main():
 
     print(f"Area of the rectangle: {area}")
     print(f"Perimeter of the rectangle: {perimeter}")
+
 
 if __name__ == "__main__":
     main()
